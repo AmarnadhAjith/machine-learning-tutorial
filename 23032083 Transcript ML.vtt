@@ -1,0 +1,430 @@
+WEBVTT
+
+1
+00:00:08.620 --> 00:00:14.230
+Amarnadh Ajith: So Hi, everyone, we're gonna start now. So
+
+2
+00:00:14.570 --> 00:00:17.090
+Amarnadh Ajith: today, we're gonna learn what is decision trees
+
+3
+00:00:17.140 --> 00:00:20.339
+Amarnadh Ajith: recently is a supervised machine learning algorithm.
+
+4
+00:00:20.460 --> 00:00:23.659
+Amarnadh Ajith: And we use it for classification and regression tasks.
+
+5
+00:00:23.960 --> 00:00:28.450
+Amarnadh Ajith: and it works by splitting data into branches based on feature values.
+
+6
+00:00:29.050 --> 00:00:34.419
+Amarnadh Ajith: And a key concept. In this entry is internal nose, branch, root, node, leaf node.
+
+7
+00:00:34.600 --> 00:00:37.020
+Amarnadh Ajith: So if you look at the symbol diagram.
+
+8
+00:00:37.180 --> 00:00:39.650
+Amarnadh Ajith: you can see that there's a root node
+
+9
+00:00:40.140 --> 00:00:44.019
+Amarnadh Ajith: in the top is where the splitting occurs, or everything starts there.
+
+10
+00:00:44.160 --> 00:00:49.109
+Amarnadh Ajith: and this internal nodes and this leaf nodes, and this how many branches? Sorry.
+
+11
+00:00:49.490 --> 00:00:55.059
+Amarnadh Ajith: So in general, is points for the addition of splitsocracy.
+
+12
+00:00:55.700 --> 00:00:58.519
+Amarnadh Ajith: The in in the Indian node pretty occurs here.
+
+13
+00:00:58.630 --> 00:01:04.489
+Amarnadh Ajith: If it's a leaf node there, there will be no more spitting. It's where the Preston or spitting ends there. Okay?
+
+14
+00:01:04.709 --> 00:01:05.514
+Amarnadh Ajith: And
+
+15
+00:01:06.440 --> 00:01:12.679
+Amarnadh Ajith: see? If so, if you look at the right side. This are the internal node and the internal nodes. Again, between the internal node and lift node.
+
+16
+00:01:12.840 --> 00:01:15.490
+Amarnadh Ajith: If there's no more split in the lift, node is
+
+17
+00:01:15.590 --> 00:01:20.840
+Amarnadh Ajith: the end part, and the engine knows this for the most waiting. Then it's against potential lift. No?
+
+18
+00:01:21.250 --> 00:01:22.110
+Amarnadh Ajith: Okay?
+
+19
+00:01:23.000 --> 00:01:35.410
+Amarnadh Ajith: And there's 2 types of decision trees. One is classification trees and the other one is regression trees. So in the real world scenario. Your data might be having an output or target, as yes or no.
+
+20
+00:01:35.420 --> 00:01:47.550
+Amarnadh Ajith: or types or species types. So that's where the we can use the classification freeze, and the regression freeze is where the output is a continuous value. For example, price temperature, everything. Okay?
+
+21
+00:01:48.470 --> 00:01:53.739
+Amarnadh Ajith: And in the recent tree there's a special concept called Guinea index
+
+22
+00:01:53.850 --> 00:02:00.580
+Amarnadh Ajith: guinea. It's what is guinea guinea indust measures impurity or beauty used to split notes in a different trick.
+
+23
+00:02:00.790 --> 00:02:02.969
+Amarnadh Ajith: So let me show you a picture.
+
+24
+00:02:04.150 --> 00:02:07.280
+Amarnadh Ajith: See how this this is my data.
+
+25
+00:02:07.530 --> 00:02:11.210
+Amarnadh Ajith: And I have red data and green data.
+
+26
+00:02:11.480 --> 00:02:15.810
+Amarnadh Ajith: So I have written the data into 4 parts. In the 1st part
+
+27
+00:02:15.960 --> 00:02:21.479
+Amarnadh Ajith: there's no, there's only the green green datches and second part, there's only red datches.
+
+28
+00:02:21.670 --> 00:02:29.800
+Amarnadh Ajith: But in the 3rd part and 4th part this one letters, which is not in the right playful place
+
+29
+00:02:30.470 --> 00:02:34.590
+Amarnadh Ajith: in this, but the red one is the impurity.
+
+30
+00:02:34.870 --> 00:02:38.809
+Amarnadh Ajith: Okay, in this one. The green one is, we call it impurity.
+
+31
+00:02:38.920 --> 00:02:43.020
+Amarnadh Ajith: Okay, where someone is not in the right place, we call them imbeauties.
+
+32
+00:02:43.220 --> 00:02:52.610
+Amarnadh Ajith: Okay? And this is where the guinea index. This is actually, what is Guinea index? Okay. The Guinea index measures in beauty or purity used to be not in addition, free.
+
+33
+00:02:52.990 --> 00:02:57.489
+Amarnadh Ajith: So and we, I have given a formula to find the guinea
+
+34
+00:02:57.750 --> 00:03:02.589
+Amarnadh Ajith: that's and it is one minus sigma equal one to see pi square.
+
+35
+00:03:02.660 --> 00:03:06.620
+Amarnadh Ajith: So P. Is the property of a sample being transferred into class.
+
+36
+00:03:06.760 --> 00:03:08.830
+Amarnadh Ajith: I use the class number.
+
+37
+00:03:08.940 --> 00:03:15.270
+Amarnadh Ajith: And sorry, it's Class I, which class is represented. Okay? And C is the number of classes. Okay?
+
+38
+00:03:16.180 --> 00:03:20.610
+Amarnadh Ajith: And there's a similar term called entropy and information gain
+
+39
+00:03:20.800 --> 00:03:37.869
+Amarnadh Ajith: and entropy. What is entropy? Entropy is similar to guinea index. It's it measures uncertainty or disorder in your data set. Okay? And the goal is to reduce entropy, which is split. So if your data have some uncertainty or disorder.
+
+40
+00:03:38.020 --> 00:03:45.280
+Amarnadh Ajith: and if if your data don't have a uncertainty or disorder. You have preferred data, and so
+
+41
+00:03:45.510 --> 00:03:49.260
+Amarnadh Ajith: more the more they entropy, the worse the data is.
+
+42
+00:03:49.300 --> 00:03:56.699
+Amarnadh Ajith: So for each split, the enthalpy should be reduced or should be. That's that's better for your data. Okay?
+
+43
+00:03:57.653 --> 00:04:05.330
+Amarnadh Ajith: Similar to entropy. Information gain is a reduction in entropy or uncertainty after data is split, based on particular feature.
+
+44
+00:04:05.480 --> 00:04:20.890
+Amarnadh Ajith: So if your data is pictured like in the as you're seeing here, the data is pictured right? So it must be based on a special or particular feature. So if your data is based on a particular feature, the entropy should be
+
+45
+00:04:21.355 --> 00:04:31.580
+Amarnadh Ajith: reduce. Or if your dad, if you want your dietary to be better, there should be a little entropy or no in beauty. That's what I said here.
+
+46
+00:04:31.750 --> 00:04:37.330
+Amarnadh Ajith: so a higher information gain means there will be reduced, there will be low impurity.
+
+47
+00:04:37.550 --> 00:04:39.240
+Amarnadh Ajith: So higher information gives.
+
+48
+00:04:39.754 --> 00:04:45.820
+Amarnadh Ajith: Provides a better fit of your data and reduces uncertainty more effectively or interrupt. Okay.
+
+49
+00:04:46.730 --> 00:04:49.719
+Amarnadh Ajith: And now I will give you a real real example.
+
+50
+00:04:50.250 --> 00:04:55.039
+Amarnadh Ajith: So I use here Irish data set. Okay, I'll show you second, okay.
+
+51
+00:04:55.450 --> 00:05:00.380
+Amarnadh Ajith: Irs data, Iris data set. It's a simple data set. We can use it for learning purposes.
+
+52
+00:05:00.600 --> 00:05:03.870
+Amarnadh Ajith: So here we are using scalar
+
+53
+00:05:04.365 --> 00:05:09.239
+Amarnadh Ajith: so from Skn dot data set, I have imported the I use data set.
+
+54
+00:05:09.550 --> 00:05:13.329
+Amarnadh Ajith: And I have a lot of the data set here. It's in array format.
+
+55
+00:05:13.490 --> 00:05:18.999
+Amarnadh Ajith: So from here we can't understand anything. It's showing us numbers. Okay? But don't worry.
+
+56
+00:05:19.480 --> 00:05:21.740
+Amarnadh Ajith: For for you to understand.
+
+57
+00:05:21.940 --> 00:05:31.989
+Amarnadh Ajith: I have changed the data into a table format, and with the help of pandas import of pandas as beauty here, and
+
+58
+00:05:32.080 --> 00:05:34.799
+Amarnadh Ajith: with the use of pandas features help
+
+59
+00:05:35.440 --> 00:05:42.090
+Amarnadh Ajith: separated the target column and the features column. Here the features are separate and separate with petal and with.
+
+60
+00:05:42.140 --> 00:05:49.120
+Amarnadh Ajith: and the 5.1 3.5 1.4 etcetera, are the data that we have seen here earlier.
+
+61
+00:05:49.300 --> 00:05:53.589
+Amarnadh Ajith: Then the targets are Setosa, Virginia, and this one more vegecola.
+
+62
+00:05:53.660 --> 00:06:01.160
+Amarnadh Ajith: So here, as you have seen here, the 0 represents the cytosa, one represents the basic color.
+
+63
+00:06:01.200 --> 00:06:04.270
+Amarnadh Ajith: and these 2 representatives in assurance frequency.
+
+64
+00:06:05.570 --> 00:06:08.320
+Amarnadh Ajith: So okay, that's our data set. Okay.
+
+65
+00:06:09.240 --> 00:06:13.310
+Amarnadh Ajith: okay, so I have the lot. I have a lot of the data set. And I have
+
+66
+00:06:13.350 --> 00:06:17.059
+Amarnadh Ajith: to split up the data set into data and target
+
+67
+00:06:17.400 --> 00:06:20.320
+Amarnadh Ajith: like exit. And why? Why is our target variable?
+
+68
+00:06:20.630 --> 00:06:24.049
+Amarnadh Ajith: And if you want to use the decision. Reclassifier
+
+69
+00:06:24.250 --> 00:06:27.809
+Amarnadh Ajith: you you have to import from Sk. 11 dot 3,
+
+70
+00:06:28.130 --> 00:06:32.390
+Amarnadh Ajith: and I have instantiated, instantiated the classifier here.
+
+71
+00:06:32.630 --> 00:06:35.359
+Amarnadh Ajith: and the tier is our variable.
+
+72
+00:06:35.970 --> 00:06:38.770
+Amarnadh Ajith: and after that the variable is featured here.
+
+73
+00:06:39.350 --> 00:06:43.479
+Amarnadh Ajith: and after fitting, if you, if everything is okay, it will be shown like this.
+
+74
+00:06:43.710 --> 00:06:49.719
+Amarnadh Ajith: If you don't get the message. I think it's wrong somewhere. Or if you get an error, it might be wrong.
+
+75
+00:06:49.980 --> 00:06:53.640
+Amarnadh Ajith: Okay, okay. Then we need to
+
+76
+00:06:54.094 --> 00:07:03.160
+Amarnadh Ajith: pictures or tree. So I have imported a tree from Skn here and using the macrolyp dot
+
+77
+00:07:03.270 --> 00:07:07.620
+Amarnadh Ajith: I have wish list the dysentery here.
+
+78
+00:07:07.960 --> 00:07:16.859
+Amarnadh Ajith: Okay, and using the plot as a variable and using plot, dot underscore tree and data dot feature names and class names.
+
+79
+00:07:16.930 --> 00:07:19.415
+Amarnadh Ajith: So the class names I have
+
+80
+00:07:20.300 --> 00:07:30.480
+Amarnadh Ajith: for you to see the correct class name. I have used the class name, secret target number list. So it will convert our numbers into the appropriate class names.
+
+81
+00:07:30.670 --> 00:07:32.809
+Amarnadh Ajith: So you can see it here. Okay.
+
+82
+00:07:33.200 --> 00:07:36.310
+Amarnadh Ajith: so you have. You got the distantry?
+
+83
+00:07:36.430 --> 00:07:42.230
+Amarnadh Ajith: I will explain this entry later. And if you want to see how it works.
+
+84
+00:07:42.590 --> 00:07:47.209
+Amarnadh Ajith: If you this by seeing this figure, you you make it.
+
+85
+00:07:47.310 --> 00:08:03.750
+Amarnadh Ajith: The idea of what addition free is if you want to more involved into the decision tree, you can use the text format which is shown here. So it's like this feature 3. If it's less than or 0 point 8 0, it's close to. It's again goes inside like this. Okay.
+
+86
+00:08:04.590 --> 00:08:10.960
+Amarnadh Ajith: so explain this one. Okay, okay, no.
+
+87
+00:08:12.040 --> 00:08:23.620
+Amarnadh Ajith: So I have given each and the each data and the steps. And this purpose here in both network and loading the status and initializing free libraries for visualization
+
+88
+00:08:23.720 --> 00:08:30.150
+Amarnadh Ajith: and set up in the figure customizing and putting the addition tree, etcetera. Okay, this is our addition. Free.
+
+89
+00:08:30.390 --> 00:08:31.500
+Amarnadh Ajith: Find out.
+
+90
+00:08:32.780 --> 00:08:39.919
+Amarnadh Ajith: Our conclusion is that the decision tree effectively classified, the Isis data set achieving perfect separation of sectors.
+
+91
+00:08:40.240 --> 00:08:43.230
+Amarnadh Ajith: See, this is so successful.
+
+92
+00:08:43.640 --> 00:08:44.540
+Amarnadh Ajith: Go through.
+
+93
+00:08:47.460 --> 00:08:49.059
+Amarnadh Ajith: This is her so, Joseph.
+
+94
+00:08:49.500 --> 00:08:55.379
+Amarnadh Ajith: I think you can see that. So the sector class is perfectly separated using petrol land.
+
+95
+00:08:55.420 --> 00:08:57.089
+Amarnadh Ajith: which is one of the feature.
+
+96
+00:08:57.150 --> 00:09:14.469
+Amarnadh Ajith: and it's pictured here. So this is a leaf node, because, as you can see, that value equal to 50 0 0. So there's no values for the other 2 variables. I'm sorry the target variables. Yeah. So the 50 represent our class sectors are
+
+97
+00:09:14.560 --> 00:09:19.469
+Amarnadh Ajith: so samples we have taken is 50, and all the samples is belonging to Setosa.
+
+98
+00:09:19.590 --> 00:09:28.869
+Amarnadh Ajith: So if there's no other classes or sorry no other target variables, then it will be the in Guinea will be 0. So this is a pure
+
+99
+00:09:29.270 --> 00:09:30.840
+Amarnadh Ajith: data. Okay?
+
+100
+00:09:31.320 --> 00:09:50.919
+Amarnadh Ajith: And after splitting this one using the petrol, it again pictured using petrol wing. Okay. So we got the setters. And now we need to pick for the basic color. And Virginia, okay, so by using the next feature as petrol wing with it against picture, and finally.
+
+101
+00:09:53.200 --> 00:09:53.980
+Amarnadh Ajith: sorry.
+
+102
+00:09:54.180 --> 00:10:00.810
+Amarnadh Ajith: Finally, we got Diversikala and Virginica. It is a pure data to represent vertical
+
+103
+00:10:00.900 --> 00:10:03.870
+Amarnadh Ajith: the class number. There's 2 samples, so that both
+
+104
+00:10:03.940 --> 00:10:09.569
+Amarnadh Ajith: 2 sample versi color. And, as I have said, the guinea beauty will be 0
+
+105
+00:10:09.580 --> 00:10:13.200
+Amarnadh Ajith: if you don't have any. The target variables.
+
+106
+00:10:13.460 --> 00:10:24.269
+Amarnadh Ajith: and similarly for Virginia. So our mission tree has predicted, and given us a perfect lattice. And
+
+107
+00:10:24.716 --> 00:10:30.839
+Amarnadh Ajith: this is final visualization. And I think you have understand everything about relation case, and thank you.
+
